@@ -1,6 +1,6 @@
 import pymysql
 
-conn = pymysql.connect(host='192.168.56.101',user='root', password='0213', db='madang', port=4567, charset='utf8',)
+conn = pymysql.connect(host='192.168.56.101',user='root', password='0213', db='termdb', port=4567, charset='utf8',)
 
 cur = conn.cursor()
 
